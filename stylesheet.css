@@ -1,0 +1,33 @@
+.
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    color: rgb(255, 255, 255);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+    background: transparent;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+}
